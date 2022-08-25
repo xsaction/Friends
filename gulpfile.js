@@ -7,6 +7,8 @@ const imagemin = require('gulp-imagemin');
 const pngquant = require('imagemin-pngquant');
 const webp = require('imagemin-webp');
 const del = require('delete');
+// import gulp from 'gulp';
+// import del from 'delete';
 
 const { mozjpeg, svgo } = imagemin;
 
