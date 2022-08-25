@@ -1,16 +1,13 @@
-const gulp = require('gulp');
-const gulpIf = require('gulp-if');
-const yaml = require('gulp-yaml');
-const htmlMinifier = require('gulp-html-minifier-terser');
-const imageResize = require('gulp-image-resize');
-const imagemin = require('gulp-imagemin');
-const pngquant = require('imagemin-pngquant');
-const webp = require('imagemin-webp');
-const del = require('delete');
-// import gulp from 'gulp';
-// import del from 'delete';
-
-const { mozjpeg, svgo } = imagemin;
+import gulp from 'gulp';
+import gulpIf from 'gulp-if';
+import yaml from 'gulp-yaml';
+import htmlMinifier from 'gulp-html-minifier-terser';
+import imageResize from 'gulp-image-resize';
+import imagemin from 'gulp-imagemin';
+import pngquant from 'imagemin-pngquant';
+import webp from 'imagemin-webp';
+import del from 'delete';
+import { mozjpeg,svgo } from 'gulp-imagemin';
 
 const configs = {
     htmlMinifier: {
