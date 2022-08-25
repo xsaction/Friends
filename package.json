@@ -1,6 +1,6 @@
 {
   "name": "friends",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "",
   "scripts": {
     "build": "gulp"
@@ -17,10 +17,10 @@
     "gulp-html-minifier-terser": "^6.0.1",
     "gulp-if": "^3.0.0",
     "gulp-image-resize": "^0.13.1",
-    "gulp-imagemin": "^7.1.0",
+    "gulp-imagemin": "^8.0.0",
     "gulp-yaml": "^2.0.4",
     "imagemin-pngquant": "^9.0.2",
-    "imagemin-webp": "^6.0.0",
-    "js-yaml": "^3.13.1"
+    "imagemin-webp": "^7.0.0",
+    "js-yaml": "^4.1.0"
   }
 }
