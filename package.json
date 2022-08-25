@@ -16,5 +16,10 @@
     "gulp-yaml": "^2.0.4",
     "imagemin-pngquant": "^9.0.2",
     "imagemin-webp": "^7.0.0"
+  },
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xs314/Friends.git"
   }
 }
